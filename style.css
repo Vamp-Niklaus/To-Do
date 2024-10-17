@@ -1,0 +1,146 @@
+body{
+    /* background: url("https://source.unsplash.com/random/1920x1080/?wallpaper,landscape'"); */
+    background-image: linear-gradient(to right, #0f0c29, #302b63, #24243e);
+    background-repeat: no-repeat;
+    box-sizing: border-box;  
+    font-family: 'Poppins', sans-serif;
+    height: 90vh;
+    width: 90vw;
+}
+.main-container{
+    margin: 5% auto;
+    text-align: center;
+    width: 40%;
+    min-width: 550px;
+    border: 2px solid rgb(177, 118, 249);
+    box-shadow: 5px 10px 8px 2px #575064;
+    border-radius: 18px;
+    background-color: #302b63;
+}
+
+.task-container{
+   width: 90vw;
+    margin: auto;
+    background: white;
+    font-family: 'Times New Roman', Times, serif;
+    border: 3px solid black;
+    border-radius: 10px;
+    font-size: 20px;
+    height: 10rem;
+}
+.list-group-item{
+    background: transparent;
+    border: 2px solid black;
+}
+.card-header{
+    text-align: center;   
+    font-weight: bold;
+    font-size: 25px;
+}
+.add-btn{
+    background-color: rgb(66, 70, 72);
+    color: white;
+    margin-left: 5px;
+}
+.gitrepo{
+    background-color: rgb(10, 90, 157);
+    opacity: 1;
+    border :1px  rgb(122, 153, 106);
+    color : white;
+    position: fixed;
+    top: 0;
+    width:100%;
+    height:2rem;
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+}
+.gitrepo a{
+    color:  rgb(4, 31, 40);
+    background-color: cyan;
+    opacity: 0.5;
+    padding: 3px;
+    border-radius: 4px;
+}
+.gitrepo a:hover{
+    color: darkblue;
+    background-color: greenyellow;
+    opacity: 1;
+    text-decoration: none;
+}
+
+.tasks {
+    display: flex;
+    justify-content: center; /* Centers content horizontally */
+    align-items: center;     /* Centers content vertically */
+    padding: 10px;
+    margin: 10px;
+    border-radius: 10px;
+    background: transparent;
+}
+
+.content {
+    margin: 10px;
+    background-color: rgb(89, 73, 155);
+    border-radius: 20px;
+    text-align: center; /* Centers the text inside each task */
+    width: 100%; /* Ensures the task stretches the full width */
+}
+.actions {
+    display: flex;
+    justify-content: center;
+    gap: 10px; /* Add some space between the Edit and Delete buttons */
+}
+input[type="text"] {
+    text-align: center; /* This ensures the text is centered inside the input */
+}
+#edit{
+    margin: 10px 5px;
+    background: rgb(105, 105, 247);
+    color: white;
+}
+#delete{
+    margin: 10px 5px;
+    background: rgb(237, 72, 72);
+    color: white;
+}
+#searchbar{
+    color: rgb(247, 157, 157);
+    width: 72%;
+    height: 2rem;
+    margin: 10px;
+    /* border: 3px solid rgb(193, 142, 251); */
+    border-radius: 20px;
+    text-align: center;
+    font-size: large;
+    font-weight: bold;
+    background: transparent;
+}
+
+#a{
+    display: flex;
+    flex-direction: row;
+    padding-left: 15%;
+    margin: 20px 0px;
+}
+
+#form{
+    margin: 0px 10px;
+    height: 20%;
+    text-align: center;
+    font-size: large;
+    font-weight: bolder;
+    background: transparent;
+}
+
+#add-task{
+    height: 40%;
+    /* border: 3px solid black; */
+    background: transparent;
+    border-radius: 15px;
+    color: rgb(248, 236, 7);
+}
+#task-list{
+    /* border: 4px solid green; */
+    border-radius: 10px;
+}
